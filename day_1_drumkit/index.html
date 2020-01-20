@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JS Drumkit</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <audio
+        id="clap"
+        src="sounds/clap.wav"
+        type="audio/wav"
+        preload="auto">
+    </audio>
+    <audio
+        id="boom"
+        src="sounds/boom.wav"
+        type="audio/wav"
+        preload="auto">
+    </audio>
+    <audio
+        id="hihat"
+        src="sounds/hihat.wav"
+        type="audio/wav"
+        preload="auto">
+    </audio>
+    <audio
+        id="kick"
+        src="sounds/kick.wav"
+        type="audio/wav"
+        preload="auto">
+    </audio>
+    <audio
+        id="openhat"
+        src="sounds/openhat.wav"
+        type="audio/wav"
+        preload="auto">
+    </audio>
+    <audio
+        id="ride"
+        src="sounds/ride.wav"
+        type="audio/wav"
+        preload="auto">
+    </audio>
+    <audio
+        id="snare"
+        src="sounds/snare.wav"
+        type="audio/wav"
+        preload="auto">
+    </audio>
+    <audio
+        id="tink"
+        src="sounds/tink.wav"
+        type="audio/wav"
+        preload="auto">
+    </audio>
+    <audio
+        id="tom"
+        src="sounds/tom.wav"
+        type="audio/wav"
+        preload="auto">
+    </audio>
+
+
+    <div class="keys">
+        <div class="key" id="clap-btn" onclick="playAudio('clap')">
+            <div class="keytext">
+                <kbd>A</kbd>
+                <span>clap</span>
+            </div>
+        </div>
+        <div class="key" id="hihat-btn" onclick="playAudio('hihat')">
+            <div class="keytext">
+                <kbd>S</kbd>
+                <span>hihat</span>
+            </div>
+        </div>
+        <div class="key" id="kick-btn" onclick="playAudio('kick')">
+            <div class="keytext">
+                <kbd>D</kbd>
+                <span>kick</span>
+            </div>
+        </div>
+        <div  class="key" id="openhat-btn" onclick="playAudio('openhat')">
+            <div class="keytext">
+                <kbd>F</kbd>
+                <span>openhat</span>
+            </div>
+        </div>
+        <div class="key" id="boom-btn" onclick="playAudio('boom')">
+            <div class="keytext">
+                <kbd>G</kbd>
+                <span>boom</span>
+            </div>
+        </div>
+        <div class="key" id="ride-btn" onclick="playAudio('ride')">
+            <div class="keytext">
+                <kbd>H</kbd>
+                <span>ride</span>
+            </div>
+        </div>
+        <div class="key" id="snare-btn" onclick="playAudio('snare')">
+            <div class="keytext">
+                <kbd>J</kbd>
+                <span>snare</span>
+            </div>
+        </div>
+        <div class="key" id="tom-btn" onclick="playAudio('tom')">
+            <div class="keytext">
+                <kbd>K</kbd>
+                <span>tom</span>
+            </div>
+        </div>
+        <div class="key" id="tink-btn" onclick="playAudio('tink')">
+            <div class="keytext">
+                <kbd>L</kbd>
+                <span>tink</span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
