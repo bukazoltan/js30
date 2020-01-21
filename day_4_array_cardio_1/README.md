@@ -1,1 +1,1 @@
-In progress.
+Array function practice, check the console.log for output.
