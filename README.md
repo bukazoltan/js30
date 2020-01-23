@@ -18,7 +18,7 @@ Everything is done in vanilla JavaScript and CSS.
 [Fancy Flexbox Gallery](https://bukazoltan.github.io/js30/day_5_flex_panel_gallery)
 
 ## Day 6:
-[Population Finder](https://bukazoltan.github.io/js30/day_7_array_cardio_2)
+[Population Finder](https://bukazoltan.github.io/js30/day_6_type_ahead)
 
 ## Day 7:
-Array practice 2 - nothing fancy just output stuff.
+[Array practice 2](https://bukazoltan.github.io/js30/day_7_array_cardio_2) - nothing fancy just output stuff.
