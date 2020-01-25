@@ -22,3 +22,6 @@ Everything is done in vanilla JavaScript and CSS.
 
 ## Day 7:
 [Array practice 2](https://bukazoltan.github.io/js30/day_7_array_cardio_2) - nothing fancy just output stuff.
+
+## Day 8:
+[Having fun with the Canvas](https://bukazoltan.github.io/js30/day_8_canvas_fun)
