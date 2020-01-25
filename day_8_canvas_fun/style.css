@@ -1,0 +1,15 @@
+html, body {
+    margin: 0;
+}
+
+.rand {
+    position: absolute;
+    top: 3%;
+    left: calc(1%);
+}
+
+.reset {
+    position: absolute;
+    top: 3%;
+    right: calc(1%);
+}
