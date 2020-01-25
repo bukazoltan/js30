@@ -69,4 +69,8 @@ rand.addEventListener('click', () => {
 
 reset.addEventListener('click', () => {
     ctx.clearRect(0, 0, canvas.width, canvas.height);
+    ctx.font = "60px Arial";
+    ctx.fillStyle = "red";
+    ctx.textAlign = "center";
+    ctx.fillText("DRAW ON ME!", canvas.width/2, canvas.height/2);
 })
