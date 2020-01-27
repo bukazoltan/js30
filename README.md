@@ -27,4 +27,4 @@ Everything is done in vanilla JavaScript and CSS.
 [Having fun with the Canvas](https://bukazoltan.github.io/js30/day_8_canvas_fun)
 
 ## Day 9:
-[DevTools practice](https://bukazoltan.github.io/js30/day_8_canvas_fun) - nothing fancy just console stuff.
+[DevTools practice](https://bukazoltan.github.io/js30/day_9_devtools) - nothing fancy just console stuff.
