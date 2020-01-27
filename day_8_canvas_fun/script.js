@@ -51,7 +51,7 @@ function draw(e){
     } else {
         ctx.lineWidth--;
     }
-}
+};
 
 canvas.addEventListener('mousemove', draw);
 canvas.addEventListener('mousedown', (e) => {
@@ -73,4 +73,4 @@ reset.addEventListener('click', () => {
     ctx.fillStyle = "red";
     ctx.textAlign = "center";
     ctx.fillText("DRAW ON ME!", canvas.width/2, canvas.height/2);
-})
+});
