@@ -31,3 +31,6 @@ Everything is done in vanilla JavaScript and CSS.
 
 ## Day 10:
 [Hold shift to select multiple checkboxes at once](https://bukazoltan.github.io/js30/day_10_checkbox_selector)
+
+## Day 11:
+[Custom HTML5 videoplayer](https://bukazoltan.github.io/js30/day_11_custom_video_player)
