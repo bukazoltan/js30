@@ -28,3 +28,6 @@ Everything is done in vanilla JavaScript and CSS.
 
 ## Day 9:
 [DevTools practice](https://bukazoltan.github.io/js30/day_9_devtools) - nothing fancy just console stuff.
+
+## Day 10:
+[Hold shift to select multiple checkboxes at once](https://bukazoltan.github.io/js30/day_10_checkbox_selector)
