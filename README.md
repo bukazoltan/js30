@@ -34,3 +34,6 @@ Everything is done in vanilla JavaScript and CSS.
 
 ## Day 11:
 [Custom HTML5 videoplayer](https://bukazoltan.github.io/js30/day_11_custom_video_player)
+
+## Day 12:
+[KONAMI code](https://bukazoltan.github.io/js30/day_12_konami) - suggestion: lower the volume
