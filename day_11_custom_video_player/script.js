@@ -3,6 +3,7 @@ const player = document.querySelector('.player');
 const video = player.querySelector('.viewer');
 const time = player.querySelector('.timestamp');
 const progress = player.querySelector('.progress');
+const speed = player.querySelector('.playback');
 const progressBar = player.querySelector('.progress__filled');
 const toggle = player.querySelector('.toggle');
 const skipButtons = player.querySelectorAll('[data-skip]');
@@ -26,6 +27,9 @@ function skip() {
 
 function handleRangeUpdate() {
     video[this.name] = this.value;
+    if (this.name === "playbackRate") {
+        speed.textContent = `${this.value * 100}%`;
+    }
 };
 
 function displayTime(sec, mode) {
@@ -95,7 +99,6 @@ function closeFullscreen() {
 };
 
 function checkFullscreen() {
-    console.log("start");
     if (document.fullscreen) {
         closeFullscreen();
 
