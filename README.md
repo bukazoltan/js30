@@ -37,3 +37,6 @@ Everything is done in vanilla JavaScript and CSS.
 
 ## Day 12:
 [KONAMI code](https://bukazoltan.github.io/js30/day_12_konami) - suggestion: lower the volume
+
+## Day 13:
+[Scroll Slide-In](https://bukazoltan.github.io/js30/day_13_slide_in)
